@@ -44,12 +44,41 @@
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  color: aqua;
+  background-color: black transparent;
 }
 .banner button svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
+}
+
+.banner button {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-left: 18px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
+.banner button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.banner button:hover {
+  color: aqua;
+  border: 2px solid aqua;
 }
 .banner button:hover svg {
   margin-left: 25px;

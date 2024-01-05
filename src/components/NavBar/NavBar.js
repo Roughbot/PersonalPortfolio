@@ -2,10 +2,11 @@ import { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../assets/img/hox.png";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon3 from "../assets/img/nav-icon2.svg";
-import navIcon2 from "../assets/img/nav-icon3.svg";
+import logo from "../../assets/img/hox.png";
+import navIcon1 from "../../assets/img/nav-icon1.svg";
+import navIcon3 from "../../assets/img/nav-icon5.png";
+import navIcon2 from "../../assets/img/nav-icon3.svg";
+import "./NavBar-styles.css";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -67,13 +68,19 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/sathyanarayananpramod/"
+                aria-label="LinkedIn Profile"
+              >
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="#">
+              <a
+                href="https://www.instagram.com/hox_the_artist/"
+                aria-label="Instagram Profile"
+              >
                 <img src={navIcon2} alt="" />
               </a>
-              <a href="#">
+              <a href="https://github.com/Roughbot" aria-label="Github Profile">
                 <img src={navIcon3} alt="" />
               </a>
             </div>
