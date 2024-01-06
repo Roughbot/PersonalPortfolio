@@ -9,7 +9,7 @@
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
-  color: aqua;
+  color: aquamarine;
   padding: 8px 10px;
   background: linear-gradient(
     90.21deg,
@@ -28,7 +28,7 @@
   line-height: 1;
   margin-bottom: 20px;
   display: block;
-  color: aqua;
+  color: aquamarine;
 }
 .banner p {
   color: #b8b8b8;
@@ -44,7 +44,7 @@
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
-  color: aqua;
+  color: aquamarine;
   background-color: black transparent;
 }
 .banner button svg {
