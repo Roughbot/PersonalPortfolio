@@ -74,7 +74,6 @@ export const Skills = () => {
                   <img src={next} alt="nextjs" />
                   <h5>NextJs</h5>
                 </div>
-
                 <div className="item">
                   <img src={mongodb} alt="Mongodb" />
                   <h5>MongoDB</h5>
