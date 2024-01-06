@@ -44,3 +44,7 @@
   letter-spacing: 0.8px;
   color: azure;
 }
+.proj-imgbx img {
+  width: 370px;
+  height: auto;
+}
