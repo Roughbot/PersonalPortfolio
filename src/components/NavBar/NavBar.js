@@ -72,16 +72,16 @@ export const NavBar = () => {
                 href="https://www.linkedin.com/in/sathyanarayananpramod/"
                 aria-label="LinkedIn Profile"
               >
-                <img src={navIcon1} alt="" />
+                <img src={navIcon1} alt="LinkedIN" />
               </a>
               <a
                 href="https://www.instagram.com/hox_the_artist/"
                 aria-label="Instagram Profile"
               >
-                <img src={navIcon2} alt="" />
+                <img src={navIcon2} alt="Instagram" />
               </a>
               <a href="https://github.com/Roughbot" aria-label="Github Profile">
-                <img src={navIcon3} alt="" />
+                <img src={navIcon3} alt="Github" />
               </a>
             </div>
             <button

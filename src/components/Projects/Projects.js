@@ -2,25 +2,32 @@ import "./Projects-styles.css";
 import { Col, Container, Row, Tab } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import pro1 from "../../assets/img/project-img2.png";
+import pro0 from "../../assets/img/project-img0.png";
 import { ProjectCard } from "../ProjectCard/ProjectCard";
 import colorsharp2 from "../../assets/img/color-sharp2.png";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "E-commercee Website",
-      description: "Design and develop an e-commerce website",
-      imgUrl: pro1,
+      title: "E-commerce Website",
+      description: "Design and developed a E-commerce Website using React Js.",
+      imgUrl: pro0,
+      github: "https://github.com/Roughbot/e-commerce-cloth-shop",
+      liveLink: "https://earnest-palmier-3593ae.netlify.app/",
     },
     {
       title: "E-commercee Website",
       description: "Design and develop an e-commerce website",
       imgUrl: pro1,
+      github: "",
+      liveLink: "",
     },
     {
       title: "E-commercee Website",
       description: "Design and develop an e-commerce website",
       imgUrl: pro1,
+      github: "",
+      liveLink: "",
     },
   ];
 
@@ -58,7 +65,12 @@ export const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Coding Profile</Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  <img
+                    src="https://tryhackme-badges.s3.amazonaws.com/CyberHoX.png"
+                    alt="TryHackMe"
+                  ></img>
+                </Tab.Pane>
                 <Tab.Pane eventKey="Third">Certification</Tab.Pane>
               </Tab.Content>
             </Tab.Container>

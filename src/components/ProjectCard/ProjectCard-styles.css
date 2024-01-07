@@ -48,3 +48,21 @@
   width: 370px;
   height: auto;
 }
+
+.proj-txtx .icon {
+  width: 40px;
+  margin-top: 20px;
+  background-color: black;
+  border-radius: 100%;
+}
+.proj-txtx .links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.proj-txtx .live {
+  width: 40px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 100%;
+}

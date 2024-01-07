@@ -1,9 +1,23 @@
 .footer {
-  padding: 0 0 20px 0;
+  padding: 0 0 10px 0;
   background-image: url("../../assets/img/footer-bg.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.foote {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyRights {
+  margin-top: 50px;
+  margin-right: 35px;
+}
+.footer .logo img {
+  width: 100px;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 .footer p {
@@ -12,7 +26,4 @@
   color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
-}
-.footer .logo img {
-  width: 26%;
 }
